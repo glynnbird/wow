@@ -15,7 +15,7 @@ var getstarted = function() {
     var dm = window.location.hostname;
     $('#sss-button').attr('href', 'http://' + dm + ':' + 6001);
     $('#sas-button').attr('href', 'http://' + dm + ':' + 6002);
-    $('#scs-button').attr('href', 'http://' + dm + ':' + 6003);
+    $('#scs-button').attr('href', 'http://' + dm + ':' + 6004);
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
