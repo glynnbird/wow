@@ -1,0 +1,25 @@
+{
+  "name": "wow",
+  "version": "1.0.0",
+  "description": "Wow demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/glynnbird/wow.git"
+  },
+  "keywords": [
+    "wow"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/glynnbird/wow/issues"
+  },
+  "homepage": "https://github.com/glynnbird/wow#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
