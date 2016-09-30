@@ -1,3 +1,12 @@
+
+var getstarted = function() {
+  $.get('/getstarted').complete(function() {
+    $('#buttons').removeClass('hide');
+  });
+
+
+};
+
 (function($){
   $(function(){
 
