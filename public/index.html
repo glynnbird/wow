@@ -1,108 +1,75 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Simple Search Suite</title>
+<html>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-  <nav class="light-blue lighten-1" role="navigation">
-   <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">IBM Cloud Data Services</a>
-  </nav>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">Simple Search Service Microservice Suite</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">Build a faceted search engine with auto-complete and caching in minutes</h5>
-      </div>
-      <div class="row center">
-       <a href="Javascript:getstarted()" id="download-button" class="btn-large waves-effect waves-light green">Get Started</a>
-      </div>
-      <br><br>
+  <head>
+    <title>Simple Search Suite</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">-->
+    <link href="css/master.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
 
-    </div>
-  </div>
+  <body class="capped-layout">
+<!-- start header -->
+    <header class="capped-layout_cap app-banner">
+      <span class="app-banner_title">IBM Cloud Data Services // Dev</span>
+    </header>
+<!-- end header -->
 
+<!-- start content -->
+    <div class="capped-layout_body bookend-layout">
 
-  <div class="container hide" id="buttons">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Simple <br >Search <br >Service</h5>
-            <p class="light">
-
-            </p>
-            <div class="row center">
-              <a href="#" target="sss" id="sss-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+<!-- start main -->
+      <div class="bookend-layout_body theme_light bg_white">
+        <section class="layout_section center">
+            <h1 class="type_heading fullwidth">
+              <mark class="type_mark">Simple Search Service Microservice Suite</mark>
+            </h1>
+            <p class="type_copy fullwidth">Build a faceted search engine with auto-complete and caching in minutes</>
+            <div class="button_group">
+              <a href="Javascript:getstarted()" id="download-button" class="button_secondary">Get Started</a>
             </div>
-
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">Simple <br > Autocomplete <br >Service</h5>
-
-            <p class="light"></p>
-            <div class="row center">
-              <a href="#" id="sas-button" target="sas" class="btn-large waves-effect waves-light orange">Get Started</a>
+        </section>
+        <section id="buttons" class="layout_section center hide">
+          <figure class="guide-example theme_light bg_light-tint">
+            <div class="type_mark center"><i class="material-icons">search</i></div>
+            <h2 class="type_heading center">Simple <br >Search <br >Service</h2>
+            <div class="button_group">
+              <a href="#" id="sss-button" target="sss" class="button_primary">Get Started</a>
             </div>
-          </div>
-        </div>
+          </figure>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Simple <br >Logging <br >Service</h5>
+          <figure class="guide-example theme_light bg_light-tint">
+              <div class="microservice-icon type_mark center"><i class="material-icons">spellcheck</i></div>
+              <h2 class="type_heading center">Simple <br > Autocomplete <br >Service</h2>
+              <div class="button_group">
+                <a href="#" id="sas-button" target="sas" class="button_primary">Get Started</a>
+              </div>
+          </figure>
 
-            <p class="light"></p>
-            <div class="row center">
-              <a href="#" id="scs-button" target="scs" class="btn-large waves-effect waves-light orange">Get Started</a>
+          <figure class="guide-example theme_light bg_light-tint">
+            <div class="microservice-icon type_mark center"><i class="material-icons">subject</i></div>
+            <h2 class="type_heading center">Simple <br >Logging <br >Service</h2>
+            <div class="button_group">
+              <a href="#" id="scs-button" target="scs" class="button_primary">Get Started</a>
             </div>
-          </div>
-        </div>
+          </figure>
+        </section>
       </div>
+<!-- end main -->
 
     </div>
-    <br><br>
+<!-- end content -->
 
-    <div class="section">
-
-    </div>
-  </div>
-
-  <footer class="page-footer orange">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">IBM Cloud Data Services</h5>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-  <script src="js/init.js"></script>
-
+<!-- start scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>-->
+    <script src="js/init.js"></script>
+<!-- end scripts -->
   </body>
+
 </html>
