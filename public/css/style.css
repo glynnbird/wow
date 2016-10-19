@@ -1,14 +1,27 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
-.icon-block {
-  padding: 0 15px;
+.hide {
+  display: none;
 }
-.icon-block .material-icons {
-	font-size: inherit;
+
+.fullwidth {
+  max-width: 100%;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.material-icons {
+  font-size: 75px;
+}
+
+h1.type_heading {
+  font-size: 48px;
+  margin: 40px 0 20px;
+}
+
+p.type_copy {
+  font-size: 18px;
+  margin: 40px 0 20px;
 }
