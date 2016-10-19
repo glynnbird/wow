@@ -6,7 +6,7 @@ app.use(express.static('public'));
 app.get('/getstarted', function(req, res) {
   res.send({ok:true});
   const exec = require('child_process').exec;
-  exec('cat *.js bad_file | wc -l', (error, stdout, stderr) => {
+  exec('/home/ubuntu/wow/flush.sh', (error, stdout, stderr) => {
     if (error) {
       console.error(`exec error: ${error}`);
       return;
