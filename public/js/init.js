@@ -2,6 +2,8 @@
 var getstarted = function () {
   $.get('/getstarted').complete(function () {
     $('#buttons').slideDown();
+    $('#vid').hide();
+    $('#gs').hide();
   });
 };
 
